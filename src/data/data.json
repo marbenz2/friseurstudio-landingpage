@@ -1,0 +1,175 @@
+{
+  "services": [
+    {
+      "name": "Haare",
+      "description": "Immer der perfekte Schnitt",
+      "content": "Ob Hairstyling, Farbe oder Wellen – im Studio Gotthardt bleibt keiner Ihrer Wünsche offen.",
+      "services": [
+        {
+          "name": "Waschen"
+        },
+        {
+          "name": "Schneiden"
+        },
+        {
+          "name": "Färben"
+        },
+        {
+          "name": "Strähnen"
+        },
+        {
+          "name": "Dauerwelle"
+        }
+      ],
+      "to": "/hair"
+    },
+    {
+      "name": "Make-Up",
+      "description": "Zu jedem Anlass das Richtige",
+      "content": "Hairstyling, Farbe, Wellen oder Haarverlängerung.",
+      "services": [
+        {
+          "name": "Tages-Make-Up"
+        },
+        {
+          "name": "Abend-Make-Up"
+        },
+        {
+          "name": "Braut-Make-Up"
+        },
+        {
+          "name": "Foto-Make-Up"
+        },
+        {
+          "name": "Typberatung"
+        }
+      ],
+      "to": "/make-up"
+    },
+    {
+      "name": "Nägel",
+      "description": "Dauerhaft schöne Nägel",
+      "content": "Auffallend schöne und gepflegte Nägel in allen Lebenslagen, in allen Farben und Formen.",
+      "services": [
+        {
+          "name": "Maniküre"
+        },
+        {
+          "name": "Pediküre"
+        },
+        {
+          "name": "Nagelmodellage"
+        },
+        {
+          "name": "Nagelverlängerung"
+        },
+        {
+          "name": "Nagelverstärkung"
+        }
+      ],
+      "to": "/nails"
+    },
+    {
+      "name": "Extensions",
+      "description": "Etwas ganz Neues",
+      "content": " Wie immer Sie Ihr Haar verändern wollen: Great Lengths bietet Ihnen mehr als 30.000 Möglichkeiten.",
+      "services": [
+        {
+          "name": "Haarverlängerung"
+        },
+        {
+          "name": "Haarverdichtung"
+        },
+        {
+          "name": "Haarveredelung"
+        },
+        {
+          "name": "Haarveränderung"
+        }
+      ],
+      "to": "/extensions"
+    }
+  ],
+  "address": {
+    "company": {
+      "title": "Studio",
+      "name": "Friseurname"
+    },
+    "street": "Musterstraße 12",
+    "zip": "79999",
+    "city": "Musterstadt",
+    "phone": "+49 (0) 1234 5 67 89"
+  },
+  "products": [
+    {
+      "name": "Great Lengths",
+      "description": "Haarverlängerung",
+      "content": "Great Lengths bietet Ihnen mehr als 30.000 Möglichkeiten, Ihr Haar zu verändern.",
+      "price": "14.99",
+      "image": "1.jpg"
+    },
+    {
+      "name": "Wella",
+      "description": "Haarfarbe",
+      "content": "Wella bietet Ihnen eine große Auswahl an Haarfarben.",
+      "price": "17.49",
+      "image": "2.jpg"
+    },
+    {
+      "name": "L'Oréal",
+      "description": "Haarpflege",
+      "content": "L'Oréal bietet Ihnen eine große Auswahl an Haarpflegeprodukten.",
+      "price": "12.99",
+      "image": "3.jpg"
+    },
+    {
+      "name": "Essie",
+      "description": "Nagellack",
+      "content": "Essie bietet Ihnen eine große Auswahl an Nagellacken.",
+      "price": "7.99",
+      "image": "4.jpg"
+    },
+    {
+      "name": "MAC",
+      "description": "Make-Up",
+      "content": "MAC bietet Ihnen eine große Auswahl an Make-Up Produkten.",
+      "price": "19.99",
+      "image": "5.jpg"
+    },
+    {
+      "name": "Great Lengths",
+      "description": "Haarverlängerung",
+      "content": "Great Lengths bietet Ihnen mehr als 30.000 Möglichkeiten, Ihr Haar zu verändern.",
+      "price": "14.99",
+      "image": "1.jpg"
+    },
+    {
+      "name": "Wella",
+      "description": "Haarfarbe",
+      "content": "Wella bietet Ihnen eine große Auswahl an Haarfarben.",
+      "price": "17.49",
+      "image": "2.jpg"
+    },
+    {
+      "name": "L'Oréal",
+      "description": "Haarpflege",
+      "content": "L'Oréal bietet Ihnen eine große Auswahl an Haarpflegeprodukten.",
+      "price": "12.99",
+      "image": "3.jpg"
+    },
+    {
+      "name": "Essie",
+      "description": "Nagellack",
+      "content": "Essie bietet Ihnen eine große Auswahl an Nagellacken.",
+      "price": "7.99",
+      "image": "4.jpg"
+    },
+    {
+      "name": "MAC",
+      "description": "Make-Up",
+      "content": "MAC bietet Ihnen eine große Auswahl an Make-Up Produkten.",
+      "price": "19.99",
+      "image": "5.jpg"
+    }
+  ]
+}
