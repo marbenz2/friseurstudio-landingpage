@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import CallUs from "./CallUs";
-import { address } from "../data/data.json";
+import Logo from "./Logo";
 
 const navLinks = [
   { name: "Home", to: "/" },
-  { name: "Services", to: "/services" },
-  { name: "Produkte", to: "/products" },
-  { name: "Über uns", to: "/about" },
-  { name: "Kontakt", to: "/contact" },
+  { name: "Services", to: "/" },
+  { name: "Produkte", to: "/" },
+  { name: "Über uns", to: "/" },
+  { name: "Kontakt", to: "/" },
 ];
 
 const Navigation = () => {
@@ -65,14 +65,7 @@ const Navigation = () => {
         isTop ? "bg-background/0" : "bg-background drop-shadow-md"
       } max-w-[2560px] transition-all duration-500 px-4 lg:px-12 py-4 z-30`}
     >
-      <Link to="/" onClick={handleOnClickToTop}>
-        <p className="text-4xl tracking-wide font-thin">
-          {address.company.title.toUpperCase()}
-        </p>
-        <p className="text-2xl tracking-widest text-primary font-semibold">
-          {address.company.name}
-        </p>
-      </Link>
+      <Logo onClickToTop={handleOnClickToTop} />
       <div className={`xl:flex self-end hidden`}>
         <ul className="flex items-end justify-center h-full space-x-8">
           {navLinks.map((navLink) => (

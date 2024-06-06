@@ -6,15 +6,8 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { services } from "../data/data.json";
-import {
-  Card,
-  CardBorder,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "./ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Table, TableBody, TableCell, TableRow } from "./ui/table";
-import Underline from "./ui/underline";
 
 const ServicesDialog = () => {
   return (
@@ -32,20 +25,15 @@ const ServicesDialog = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {services.map((service) => (
             <Card key={service.name} className="h-full overflow-clip">
-              <CardBorder />
               <CardHeader className="p-3">
-                <CardTitle className="w-fit">
-                  <Underline color={"background"} thickness={4}>
-                    {service.name}
-                  </Underline>
-                </CardTitle>
+                <CardTitle className="w-fit">{service.name}</CardTitle>
               </CardHeader>
               <CardContent className="p-3">
                 <Table>
                   <TableBody>
                     {service.services.map((service) => (
                       <TableRow key={service.name}>
-                        <TableCell className="flex flex-col w-full p-0 py-1 text-lg">
+                        <TableCell className="flex flex-col w-full p-0 py-1">
                           {service.name}
                         </TableCell>
                       </TableRow>

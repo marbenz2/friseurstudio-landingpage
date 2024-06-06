@@ -19,8 +19,8 @@ import { address } from "../data/data.json";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col bg-primary/90 w-full border-t-4 border-secondary/40">
-      <div className="flex bg-primary px-4 lg:px-12 py-4 justify-start xl:justify-center">
+    <footer className="flex flex-col bg-primary w-full border-t-4 border-white/60">
+      <div className="flex bg-white/20 px-4 lg:px-12 py-4 justify-start xl:justify-center">
         <section className="flex flex-col gap-2">
           <h3 className="text-xl font-semibold">Zahlungsarten</h3>
           <div className="flex gap-4 py-2">

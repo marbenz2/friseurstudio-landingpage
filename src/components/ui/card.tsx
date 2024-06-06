@@ -9,38 +9,13 @@ const Card = React.forwardRef<
   <div
     ref={ref}
     className={cn(
-      "relative rounded-lg overflow-clip bg-card border-b border-x text-card-foreground shadow-sm",
+      "relative rounded-lg overflow-clip bg-card border text-card-foreground shadow-sm",
       className
     )}
     {...props}
   />
 ));
 Card.displayName = "Card";
-
-const CardBorder = React.forwardRef<
-  HTMLDivElement,
-  React.HTMLAttributes<HTMLDivElement>
->(({ className, ...props }, ref) => (
-  <>
-    <div
-      ref={ref}
-      className={cn(
-        "absolute top-0 left-0 w-full h-2 bg-background",
-        className
-      )}
-      {...props}
-    />
-    <div
-      ref={ref}
-      className={cn(
-        "absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-primary/80 via-primary/25 to-primary/50 border-b border-primary/60",
-        className
-      )}
-      {...props}
-    />
-  </>
-));
-CardBorder.displayName = "CardBorder";
 
 const CardHeader = React.forwardRef<
   HTMLDivElement,
@@ -103,7 +78,6 @@ CardFooter.displayName = "CardFooter";
 
 export {
   Card,
-  CardBorder,
   CardHeader,
   CardFooter,
   CardTitle,

@@ -2,14 +2,12 @@ import { address } from "../data/data.json";
 
 const CallUs = () => {
   return (
-    <>
-      <p className="text-2xl">
-        <span className="text-3xl font-thin">Termin? </span>Rufen Sie uns an!
-      </p>
-      <p className="text-2xl tracking-wide text-primary font-semibold">
+    <div className="flex flex-col items-center">
+      <p className="text-3xl px-4 font-thin">Rufen Sie uns an!</p>
+      <p className="text-xl text-center tracking-wide font-semibold bg-primary rounded-lg w-fit py-1 px-4">
         {address.phone}
       </p>
-    </>
+    </div>
   );
 };
 

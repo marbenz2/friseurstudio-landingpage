@@ -15,10 +15,8 @@ const AppointmentDialog = () => {
           Termin buchen
         </Button>
       </DialogTrigger>
-      <DialogContent className="flex flex-col gap-8 pt-12">
-        <div>
-          <CallUs />
-        </div>
+      <DialogContent className="flex flex-col items-center gap-8 pt-12">
+        <CallUs />
         <DialogClose asChild>
           <Button>Schließen</Button>
         </DialogClose>

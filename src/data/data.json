@@ -21,7 +21,7 @@
           "name": "Dauerwelle"
         }
       ],
-      "to": "/hair"
+      "to": "/"
     },
     {
       "name": "Make-Up",
@@ -44,7 +44,7 @@
           "name": "Typberatung"
         }
       ],
-      "to": "/make-up"
+      "to": "/"
     },
     {
       "name": "Nägel",
@@ -67,7 +67,7 @@
           "name": "Nagelverstärkung"
         }
       ],
-      "to": "/nails"
+      "to": "/"
     },
     {
       "name": "Extensions",
@@ -87,13 +87,13 @@
           "name": "Haarveränderung"
         }
       ],
-      "to": "/extensions"
+      "to": "/"
     }
   ],
   "address": {
     "company": {
       "title": "Studio",
-      "name": "Friseurname"
+      "name": "Friseur"
     },
     "street": "Musterstraße 12",
     "zip": "79999",

@@ -1,6 +1,5 @@
 import {
   Card,
-  CardBorder,
   CardContent,
   CardDescription,
   CardFooter,
@@ -15,18 +14,14 @@ import {
   CarouselPrevious,
 } from "./ui/carousel";
 import { products } from "../data/data.json";
-import Underline from "./ui/underline";
 import Container from "./ui/container";
+import Heading from "./Heading";
 
 const Products = () => {
   return (
     <Container left={true}>
-      <div className="relative flex flex-col w-full justify-center items-center gap-24 px-4 lg:px-12 pt-16 pb-64 overflow-clip">
-        <Underline color={"background"} thickness={10}>
-          <h1 className="text-3xl md:text-4xl xl:text-6xl font-thin">
-            Unsere Produkte
-          </h1>
-        </Underline>
+      <div className="flex flex-col w-full justify-center items-center gap-24 px-4 lg:px-12 pt-16 pb-64 overflow-clip">
+        <Heading>Unsere Produkte</Heading>
         <div className="flex flex-col w-full max-w-7xl gap-4">
           <Carousel>
             <CarouselContent>
@@ -37,7 +32,6 @@ const Products = () => {
                 >
                   <div className="p-1">
                     <Card>
-                      <CardBorder />
                       <CardContent className="flex items-center justify-center p-0 pb-4">
                         <img
                           className="w-full h-64 object-cover"
@@ -64,7 +58,7 @@ const Products = () => {
             <CarouselNext />
           </Carousel>
         </div>
-        <h3 className="text-xl md:text-2xl xl:text-4xl font-thin">
+        <h3 className="text-xl md:text-2xl xl:text-3xl">
           Besuche uns und lass dich von unserem vielfältigen Angebot
           inspirieren!
         </h3>

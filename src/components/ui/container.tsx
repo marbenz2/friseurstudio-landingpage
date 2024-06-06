@@ -6,7 +6,7 @@ const Container = ({
   left?: boolean;
 }) => {
   return (
-    <div className="relative w-full h-full bg-gradient-to-t from-primary/10 to-transparent items-center overflow-clip z-0">
+    <div className="relative w-full h-full bg-gradient-to-t from-foreground/5 to-transparent items-center overflow-clip z-0">
       {children}
       <svg
         xmlns="http://www.w3.org/2000/svg"
