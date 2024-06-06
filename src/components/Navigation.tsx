@@ -81,9 +81,6 @@ const Navigation = () => {
           ))}
         </ul>
       </div>
-      <div className="hidden md:block">
-        <CallUs />
-      </div>
       <div className="xl:hidden z-50">
         <button
           onClick={handleOnClickMenu}
