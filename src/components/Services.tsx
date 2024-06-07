@@ -19,7 +19,7 @@ const Services = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 max-w-7xl gap-4">
           {services.map((service) => (
             <Link key={service.name} to={service.to}>
-              <Card className="h-full">
+              <Card className="h-full hover:outline hover:outline-primary">
                 <CardHeader>
                   <CardTitle className="w-fit">{service.name}</CardTitle>
                   <CardDescription className="text-md">

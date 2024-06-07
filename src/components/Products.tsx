@@ -22,16 +22,16 @@ const Products = () => {
     <Container left={true}>
       <div className="flex flex-col w-full justify-center items-center gap-24 px-4 lg:px-12 pt-16 pb-64 overflow-clip">
         <Heading>Unsere Produkte</Heading>
-        <div className="flex flex-col w-full max-w-7xl gap-4">
+        <div className="flex flex-col w-full gap-4 px-12">
           <Carousel>
             <CarouselContent>
               {products.map((product, index) => (
                 <CarouselItem
                   key={index}
-                  className="md:basis-1/2 lg:basis-1/3 2xl:basis-1/4"
+                  className="md:basis-1/2 lg:basis-1/3 2xl:basis-1/6"
                 >
                   <div className="p-1">
-                    <Card>
+                    <Card className="hover:outline hover:outline-primary">
                       <CardContent className="flex items-center justify-center p-0 pb-4">
                         <img
                           className="w-full h-64 object-cover"

@@ -9,11 +9,11 @@ const Divider = ({
     <>
       {orientation === "left" ? (
         <div
-          className={`absolute bottom-0 right-0 border-t w-full h-24 -rotate-[.75deg] transform origin-top-right ${color} z-10`}
+          className={`absolute bottom-0 right-0 w-full h-24 -rotate-[.75deg] transform origin-top-right ${color} z-10`}
         />
       ) : (
         <div
-          className={`absolute bottom-0 left-0 border-t w-full h-24 rotate-[.75deg] transform origin-top-left ${color} z-10`}
+          className={`absolute bottom-0 left-0 w-full h-24 rotate-[.75deg] transform origin-top-left ${color} z-10`}
         />
       )}
     </>
