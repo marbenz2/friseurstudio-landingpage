@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import CallUs from "./CallUs";
 import Logo from "./Logo";
 
 const navLinks = [
@@ -123,11 +122,6 @@ const Navigation = () => {
             </li>
           ))}
         </ul>
-        <div
-          className={`flex flex-col w-full bg-background py-2 px-4 transition-all duration-500`}
-        >
-          <CallUs />
-        </div>
       </div>
     </nav>
   );
